@@ -1,0 +1,60 @@
+:root {
+  --color-text: #fff;
+  --color-primary: #793fdf;
+  --color-primary-2: #c3acec;
+  --color-primary-3: #d8ceeb;
+  --color-second: #777;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Russo One', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/neon.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 5% 8%;
+  position: relative;
+}
+
+.logo {
+  color: var(--color-text);
+  font-size: 2.3rem;
+  cursor: pointer;
+}
+
+.content {
+  top: 50%;
+  position: absolute;
+  transform: translateY((-50%));
+  color: var(--color-text);
+}
+
+.content h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.content p {
+  font-size: 1.5rem;
+}
+
+.time {
+  display: flex;
+}
+
+.time div {
+  flex-basis: 100px;
+}
+
+.time div p {
+  font-size: 4rem;
+  margin-bottom: -14px;
+}
